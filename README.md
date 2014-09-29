@@ -1,4 +1,4 @@
 configure
 =========
 
-Polymer-BrushをLinux上でマルチスレッドでシミュレートするためのPerlスクリプト
+Polymer-BrushをマルチスレッドでシミュレートするためのPerlスクリプト
