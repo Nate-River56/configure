@@ -1,6 +1,4 @@
 configure
 =========
 
-Polymer-BrushをマルチスレッドでシミュレートするためのPerlスクリプト(未完成)
-
-incomplete Perl-Script
+[incomplete script(未完成)]Polymer-BrushをマルチスレッドでシミュレートするためのPerlスクリプト
