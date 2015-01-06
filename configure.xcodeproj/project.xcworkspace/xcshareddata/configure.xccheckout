@@ -5,41 +5,29 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>052F7DBF-2DB7-4D89-B30D-64825E7123D8</string>
+	<string>5B142746-520D-4119-901D-D24192222BBA</string>
 	<key>IDESourceControlProjectName</key>
-	<string>configure</string>
+	<string>Configure</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E2200C3FC49B0030B6FD0D21E9E77BBFBD54650F</key>
-		<string>https://github.com/Nate-River56/configure.git</string>
 		<key>FA35F97C2D9FC53AAE857A22F7F1A46BBF28B5CE</key>
 		<string>https://github.com/Nate-River56/Polymer-Brush.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>configure.xcodeproj</string>
+	<string>Configure/Configure.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E2200C3FC49B0030B6FD0D21E9E77BBFBD54650F</key>
-		<string>../..</string>
 		<key>FA35F97C2D9FC53AAE857A22F7F1A46BBF28B5CE</key>
-		<string>../../../Polymer-Brush</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Nate-River56/configure.git</string>
+	<string>https://github.com/Nate-River56/Polymer-Brush.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E2200C3FC49B0030B6FD0D21E9E77BBFBD54650F</string>
+	<string>FA35F97C2D9FC53AAE857A22F7F1A46BBF28B5CE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E2200C3FC49B0030B6FD0D21E9E77BBFBD54650F</string>
-			<key>IDESourceControlWCCName</key>
-			<string>configure</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

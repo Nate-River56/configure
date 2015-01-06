@@ -7,66 +7,84 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		43F843AC19D294AA008D3135 /* configure.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = configure.pl; sourceTree = "<group>"; };
+		43314DAA1A28E15E001D8A35 /* configure.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = configure.pl; sourceTree = "<group>"; };
+		43F33A7F1A30D5EA006CFD17 /* semaphore.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = semaphore.pl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		43F843A119D29482008D3135 = {
+		43314D9F1A28E148001D8A35 = {
 			isa = PBXGroup;
 			children = (
-				43F843AC19D294AA008D3135 /* configure.pl */,
+				43314DAA1A28E15E001D8A35 /* configure.pl */,
+				43F33A7F1A30D5EA006CFD17 /* semaphore.pl */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		43F843A619D29482008D3135 /* configure */ = {
+		43314DA41A28E148001D8A35 /* Configure */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = 43F843A919D29482008D3135 /* Build configuration list for PBXLegacyTarget "configure" */;
+			buildConfigurationList = 43314DA71A28E148001D8A35 /* Build configuration list for PBXLegacyTarget "Configure" */;
 			buildPhases = (
 			);
 			buildToolPath = /opt/local/bin/perl;
-			buildWorkingDirectory = "";
 			dependencies = (
 			);
-			name = configure;
+			name = Configure;
 			passBuildSettingsInEnvironment = 1;
-			productName = configure;
+			productName = Configure;
+		};
+		43F33A7B1A30D5D2006CFD17 /* Semaphore */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 43F33A7C1A30D5D2006CFD17 /* Build configuration list for PBXLegacyTarget "Semaphore" */;
+			buildPhases = (
+			);
+			buildToolPath = /opt/local/bin/perl;
+			dependencies = (
+			);
+			name = Semaphore;
+			passBuildSettingsInEnvironment = 1;
+			productName = Semaphore;
 		};
 /* End PBXLegacyTarget section */
 
 /* Begin PBXProject section */
-		43F843A219D29482008D3135 /* Project object */ = {
+		43314DA01A28E148001D8A35 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = "ねいと";
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ludomania;
 				TargetAttributes = {
-					43F843A619D29482008D3135 = {
-						CreatedOnToolsVersion = 6.0.1;
+					43314DA41A28E148001D8A35 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					43F33A7B1A30D5D2006CFD17 = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 43F843A519D29482008D3135 /* Build configuration list for PBXProject "configure" */;
+			buildConfigurationList = 43314DA31A28E148001D8A35 /* Build configuration list for PBXProject "Configure" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 43F843A119D29482008D3135;
+			mainGroup = 43314D9F1A28E148001D8A35;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43F843A619D29482008D3135 /* configure */,
+				43314DA41A28E148001D8A35 /* Configure */,
+				43F33A7B1A30D5D2006CFD17 /* Semaphore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		43F843A719D29482008D3135 /* Debug */ = {
+		43314DA51A28E148001D8A35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -99,14 +117,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		43F843A819D29482008D3135 /* Release */ = {
+		43314DA61A28E148001D8A35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -134,13 +152,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		43F843AA19D29482008D3135 /* Debug */ = {
+		43314DA81A28E148001D8A35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUGGING_SYMBOLS = YES;
@@ -152,7 +170,32 @@
 			};
 			name = Debug;
 		};
-		43F843AB19D29482008D3135 /* Release */ = {
+		43314DA91A28E148001D8A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43F33A7D1A30D5D2006CFD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43F33A7E1A30D5D2006CFD17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_CFLAGS = "";
@@ -164,25 +207,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43F843A519D29482008D3135 /* Build configuration list for PBXProject "configure" */ = {
+		43314DA31A28E148001D8A35 /* Build configuration list for PBXProject "Configure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43F843A719D29482008D3135 /* Debug */,
-				43F843A819D29482008D3135 /* Release */,
+				43314DA51A28E148001D8A35 /* Debug */,
+				43314DA61A28E148001D8A35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43F843A919D29482008D3135 /* Build configuration list for PBXLegacyTarget "configure" */ = {
+		43314DA71A28E148001D8A35 /* Build configuration list for PBXLegacyTarget "Configure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43F843AA19D29482008D3135 /* Debug */,
-				43F843AB19D29482008D3135 /* Release */,
+				43314DA81A28E148001D8A35 /* Debug */,
+				43314DA91A28E148001D8A35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		43F33A7C1A30D5D2006CFD17 /* Build configuration list for PBXLegacyTarget "Semaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F33A7D1A30D5D2006CFD17 /* Debug */,
+				43F33A7E1A30D5D2006CFD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 43F843A219D29482008D3135 /* Project object */;
+	rootObject = 43314DA01A28E148001D8A35 /* Project object */;
 }

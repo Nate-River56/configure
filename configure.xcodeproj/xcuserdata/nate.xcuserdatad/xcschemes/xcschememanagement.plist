@@ -4,15 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>configure.xcscheme</key>
+		<key>Configure.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Semaphore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>43F843A619D29482008D3135</key>
+		<key>43314DA41A28E148001D8A35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>43F33A7B1A30D5D2006CFD17</key>
 		<dict>
 			<key>primary</key>
 			<true/>

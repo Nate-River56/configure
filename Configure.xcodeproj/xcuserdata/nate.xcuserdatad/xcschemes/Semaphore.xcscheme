@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "43314DA41A28E148001D8A35"
-               BuildableName = "Configure"
-               BlueprintName = "Configure"
+               BlueprintIdentifier = "43F33A7B1A30D5D2006CFD17"
+               BuildableName = "Semaphore"
+               BlueprintName = "Semaphore"
                ReferencedContainer = "container:Configure.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,53 +45,18 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "43314DA41A28E148001D8A35"
-            BuildableName = "Configure"
-            BlueprintName = "Configure"
+            BlueprintIdentifier = "43F33A7B1A30D5D2006CFD17"
+            BuildableName = "Semaphore"
+            BlueprintName = "Semaphore"
             ReferencedContainer = "container:Configure.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "${SOURCE_ROOT}/configure.pl"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--process 4"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--choose J"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--start 0.00"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--end 1.00"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--interval 0.05"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--addition 0.05"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--seed 5"
+            argument = "${SOURCE_ROOT}/semaphore.pl"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "HOSTNAME"
-            value = "natemac"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -104,9 +69,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "43314DA41A28E148001D8A35"
-            BuildableName = "Configure"
-            BlueprintName = "Configure"
+            BlueprintIdentifier = "43F33A7B1A30D5D2006CFD17"
+            BuildableName = "Semaphore"
+            BlueprintName = "Semaphore"
             ReferencedContainer = "container:Configure.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
